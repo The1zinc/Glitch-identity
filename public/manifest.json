@@ -1,0 +1,17 @@
+{
+    "name": "Glitch Identity",
+    "short_name": "GlitchID",
+    "description": "Cyberpunk Identity Generator",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#000000",
+    "theme_color": "#00ff00",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
