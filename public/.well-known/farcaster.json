@@ -8,6 +8,7 @@
         "version": "1",
         "name": "Glitch Identity",
         "iconUrl": "https://glitch-identity.vercel.app/icon.png",
-        "homeUrl": "https://glitch-identity.vercel.app"
+        "homeUrl": "https://glitch-identity.vercel.app",
+        "imageUrl": "https://glitch-identity.vercel.app/icon.png"
     }
 }
