@@ -12,6 +12,7 @@ export const metadata: Metadata = {
         images: ['/icon.png'],
     },
     other: {
+        'base:app_id': '6980cfa82aafa0bc9ad8a5cf',
         'fc:frame': 'vNext',
         'fc:frame:image': 'https://glitch-identity.vercel.app/icon.png', // Fallback, should be dynamic in real app
         'fc:frame:button:1': 'Launch App',
