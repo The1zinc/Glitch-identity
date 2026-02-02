@@ -10,7 +10,7 @@
         "iconUrl": "https://glitch-identity.vercel.app/icon.png",
         "homeUrl": "https://glitch-identity.vercel.app",
         "imageUrl": "https://glitch-identity.vercel.app/icon.png",
-        "splashImageUrl": "https://glitch-identity.vercel.app/icon.png",
+        "splashImageUrl": "https://glitch-identity.vercel.app/splash.png",
         "splashBackgroundColor": "#000000",
         "primaryCategory": "social",
         "tags": [
