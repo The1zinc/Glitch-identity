@@ -9,6 +9,13 @@
         "name": "Glitch Identity",
         "iconUrl": "https://glitch-identity.vercel.app/icon.png",
         "homeUrl": "https://glitch-identity.vercel.app",
-        "imageUrl": "https://glitch-identity.vercel.app/icon.png"
+        "imageUrl": "https://glitch-identity.vercel.app/icon.png",
+        "splashImageUrl": "https://glitch-identity.vercel.app/icon.png",
+        "splashBackgroundColor": "#000000",
+        "primaryCategory": "social",
+        "tags": [
+            "identity",
+            "art"
+        ]
     }
 }
