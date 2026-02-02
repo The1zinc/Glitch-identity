@@ -6,6 +6,18 @@ import './globals.css';
 export const metadata: Metadata = {
     title: 'Glitch Identity',
     description: 'Cyberpunk Identity Generator',
+    openGraph: {
+        title: 'Glitch Identity',
+        description: 'Generate your cyberpunk identity.',
+        images: ['/icon.png'],
+    },
+    other: {
+        'fc:frame': 'vNext',
+        'fc:frame:image': 'https://glitch-identity.vercel.app/icon.png', // Fallback, should be dynamic in real app
+        'fc:frame:button:1': 'Launch App',
+        'fc:frame:button:1:action': 'link',
+        'fc:frame:button:1:target': 'https://glitch-identity.vercel.app',
+    },
 };
 
 export default function RootLayout({
