@@ -1,0 +1,13 @@
+{
+    "accountAssociation": {
+        "header": "eyJmaWQiOCAi... (Generate this via Base Build Tool)",
+        "payload": "eyJkb21haW4iOi ... (Generate this via Base Build Tool)",
+        "signature": "MHgy... (Generate this via Base Build Tool)"
+    },
+    "miniapp": {
+        "version": "1",
+        "name": "Glitch Identity",
+        "iconUrl": "https://glitch-identity.vercel.app/icon.png",
+        "homeUrl": "https://glitch-identity.vercel.app"
+    }
+}
