@@ -1,9 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from 'react';
+import sdk from '@farcaster/miniapp-sdk';
 import { applyGlitchEffect } from './lib/glitchEngine';
 import { Download, RefreshCw, Upload, Terminal } from 'lucide-react';
 import { useDebounce } from './hooks/useDebounce';
+
 export default function Home() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
@@ -13,6 +15,11 @@ export default function Home() {
     const [isGenerating, setIsGenerating] = useState(false);
     const [useContextInfo, setUseContextInfo] = useState(false);
     const [sessionId, setSessionId] = useState('');
+
+    // Signal to the host app that the mini app is ready
+    useEffect(() => {
+        sdk.actions.ready();
+    }, []);
 
     useEffect(() => {
         setSessionId(Math.random().toString(36).substring(7).toUpperCase());
