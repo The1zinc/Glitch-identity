@@ -18,7 +18,12 @@ export default function Home() {
 
     // Signal to the host app that the mini app is ready
     useEffect(() => {
-        sdk.actions.ready();
+        const init = async () => {
+            // Give a small buffer for the client to be ready
+            await new Promise(resolve => setTimeout(resolve, 50));
+            sdk.actions.ready();
+        };
+        init();
     }, []);
 
     useEffect(() => {
