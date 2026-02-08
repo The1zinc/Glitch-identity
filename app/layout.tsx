@@ -14,10 +14,23 @@ export const metadata: Metadata = {
     other: {
         'base:app_id': '6980cfa82aafa0bc9ad8a5cf',
         'fc:frame': 'vNext',
-        'fc:frame:image': 'https://glitch-identity.vercel.app/icon.png', // Fallback, should be dynamic in real app
+        'fc:frame:image': 'https://glitch-identity.vercel.app/icon.png', // Fallback
         'fc:frame:button:1': 'Launch App',
         'fc:frame:button:1:action': 'link',
         'fc:frame:button:1:target': 'https://glitch-identity.vercel.app',
+        'fc:miniapp': JSON.stringify({
+            version: 'next',
+            imageUrl: 'https://glitch-identity.vercel.app/preview_3_2.png',
+            button: {
+                title: 'Launch',
+                action: {
+                    type: 'launch_frame',
+                    url: 'https://glitch-identity.vercel.app',
+                    splashImageUrl: 'https://glitch-identity.vercel.app/splash.png',
+                    splashBackgroundColor: '#000000'
+                }
+            }
+        }),
     },
 };
 
